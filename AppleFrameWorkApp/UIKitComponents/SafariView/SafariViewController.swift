@@ -5,6 +5,7 @@
 //  Created by Muhammad Zeshan on 09/07/2024.
 //
 
+import Foundation
 import SafariServices
 import SwiftUI
 
@@ -18,9 +19,7 @@ struct SafariView : UIViewControllerRepresentable{
         SFSafariViewController(url: url)
     }
     
-    func updateUIViewController(_ uiViewController: SFSafariViewController, context: UIViewControllerRepresentableContext<SafariView>) {
-        
-        
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
         
     }
     
